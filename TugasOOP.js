@@ -16,8 +16,6 @@
 // apa yang akan dihapus
 // ● getData: menampilkan seluruh data atribut murid
 
-const { stderr } = require("process");
-
 class Student {
     constructor (name, age, dateofbirth, gender, studentid, hobbies){
         this.name = name;
